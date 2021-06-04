@@ -278,45 +278,46 @@
           </div>
           <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
             <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
-              <h1><a href="http://blogs.stackfindover.com/" rel="dofollow">Stackfindover</a></h1>
+              <h1><a href="http://blogs.stackfindover.com/" rel="dofollow">Tarea: Plataforma como Servicio - Heroku + Spring</a></h1>
             </div>
             <div class="formbg-outer">
               <div class="formbg">
                 <div class="formbg-inner padding-horizontal--48">
                   <span class="padding-bottom--15"><p th:text="${mensaje}"></p></span>
                   <form id="stripe-login">
-                    <table th:if="${usuarios!=null and !usuarios.empty}">
-                  	<tr>
-                  	  <th>Nombre</th>
-                  	  <th>Correo</th>
-                  	  <th>Acciones</th>
-                  	</tr>
-                  	<tr th:each="usuario : ${usuarios}">
-                        <td th:text="${usuario.nombre}">Nombre Persona</td>
-                  	  <td th:text="${usuario.email}">Correo Persona</td>
-                  	  <td>
-                  	      <a th:href="@{/edit/} + ${usuario.id}" th:text="Editar">Editar</a> | 
-                  	      <a th:href="@{/delete(id=${usuario.id})}" th:text="Eliminar">Eliminar</a>
-                  	  </td>
-                  	</tr>
-                  	</table>
-                  	<p th:if="${usuarios==null or usuarios.empty}">No hay usuarios</p>	
-	                    
+                    <div class="field padding-bottom--24">
+                      <table th:if="${usuarios!=null and !usuarios.empty}">
+                    	<tr>
+                    	  <th>Nombre</th>
+                    	  <th>Correo</th>
+                    	  <th>Acciones</th>
+                    	</tr>
+                    	<tr th:each="usuario : ${usuarios}">
+                          <td th:text="${usuario.nombre}">Nombre Persona</td>
+                    	  <td th:text="${usuario.email}">Correo Persona</td>
+                    	  <td>
+                    	      <a th:href="@{/edit/} + ${usuario.id}" th:text="Editar">Editar</a> | 
+                    	      <a th:href="@{/delete(id=${usuario.id})}" th:text="Eliminar">Eliminar</a>
+                    	  </td>
+                    	</tr>
+                    	</table>
+                    	<p th:if="${usuarios==null or usuarios.empty}">No hay usuarios</p>	
+	                  </div>   
                     <div class="field padding-bottom--24">
                       <a th:href="@{/add}"><input type="submit" name="submit" value="Añadir Usuario"></a>
                     </div>
                     <div class="field">
-                      <a class="ssolink" href="#">Use single sign-on (Google) instead</a>
+                      <a class="ssolink" href="#">#######</a>
                     </div>
                   </form>
                 </div>
               </div>
               <div class="footer-link padding-top--24">
-                <span>Don't have an account? <a href="">Sign up</a></span>
+                <span>#######<a href="">#####</a></span>
                 <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
-                  <span><a href="#">© Stackfindover</a></span>
-                  <span><a href="#">Contact</a></span>
-                  <span><a href="#">Privacy & terms</a></span>
+                  <span><a href="#">##</a></span>
+                  <span><a href="#">##</a></span>
+                  <span><a href="#">##</a></span>
                 </div>
               </div>
             </div>
