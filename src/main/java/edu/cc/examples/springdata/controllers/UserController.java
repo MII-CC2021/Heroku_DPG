@@ -43,7 +43,7 @@ public class UserController {
 		userService.guardarUsuario(u);
 		
 		//return "redirect:/";
-		return "index";
+		return "redirect:/";
 	}
 	
 	@GetMapping("/edit/{id}")
