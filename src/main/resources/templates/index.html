@@ -162,7 +162,7 @@
                             rgba(0, 0, 0, 0) 0px 0px 0px 0px;
             }
             
-            input[type="submit"] {
+            input[type="add-user"] {
                 background-color: rgb(84, 105, 212);
                 box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
                             rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
@@ -304,7 +304,7 @@
                     	<p th:if="${usuarios==null or usuarios.empty}">No hay usuarios</p>	
 	                  </div>   
                     <div class="field padding-bottom--24">
-                      <a th:href="@{/add}"><input type="submit" name="add-user" value="Añadir Usuario"></a>
+                      <a th:href="@{/add}"><input type="add-user" name="add-user" value="Añadir Usuario"></a>
                     </div>
                     <div class="field">
                       <a class="ssolink" href="#">#######</a>
