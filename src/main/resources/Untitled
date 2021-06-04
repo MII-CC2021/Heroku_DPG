@@ -1,4 +1,6 @@
 export DB_URL=localhost
-export DB_NAME=cc2021db
+export DB_NAME=ccdb2021
 export DB_USERNAME=admin
 export DB_PASSWORD=P4ssW0rd
+
+postgres://ttshmzzicobkfq:7573762ba59957476a830a3d37e55fdadc0f454965f43aa584a82162ccaf9e83@ec2-34-232-191-133.compute-1.amazonaws.com:5432/d6pj727oti3u58
