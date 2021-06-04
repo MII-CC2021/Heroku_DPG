@@ -1,0 +1,4 @@
+export DB_URL=localhost
+export DB_NAME=cc2021db
+export DB_USERNAME=admin
+export DB_PASSWORD=P4ssW0rd
