@@ -42,7 +42,6 @@ public class UserController {
 		log.info("Usuario " + u);
 		userService.guardarUsuario(u);
 		
-		//return "redirect:/";
 		return "redirect:/";
 	}
 	
